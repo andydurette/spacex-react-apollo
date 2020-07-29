@@ -1,0 +1,29 @@
+import React from 'react';
+import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import AcUnitIcon from '@material-ui/icons/AcUnit';
+import { makeStyles } from '@material-ui/styles';
+
+const useStyles = makeStyles(() => ({
+  typographyStyles: {
+    flex: 1
+  },
+  headingStyles: {
+    backgroundColor:"linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #2196F3",
+  }
+}));
+
+function Header() {
+
+  const classes = useStyles();
+
+  return (
+    <AppBar className={classes.headingStyles} position="static">
+      <Toolbar>
+        <Typography className={classes.typographyStyles}>This is our header</Typography>
+        <AcUnitIcon/>
+      </Toolbar>
+    </AppBar>
+  )
+}
+
+export default Header

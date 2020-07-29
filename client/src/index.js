@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { ThemeProvider } from '@material-ui/core/styles';
+import theme from './theme';
+
+//Graphql
+// import { ApolloProvider } from '@apollo/react-hooks';
+// import ApolloClient from 'apollo-boost';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <ApolloProvider client={client}> */}
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    {/* </ApolloProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
