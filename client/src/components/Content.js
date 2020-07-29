@@ -20,18 +20,26 @@ let Content = () => {
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} sm={8}>
-        <h2>Active Rockets</h2>
+        <h2>Rockets1</h2>
         <Card 
-        title="Hamilton Beach Flex Brew"
-        subtitle="$89.99"
+        title="Rocket1"
         avatarUrl="http://images-na.ssl-image-amazon.com/images/I/81mjh5ZSu1L._AC_SL1500_.jpg"
         />
       </Grid>
-      <Grid item xs={12} sm={8}><Card /></Grid>
-      <Grid item xs={12} sm={8}><Card /></Grid>
-      <Grid item xs={12} sm={8}><Card /></Grid>
-      <Grid item xs={12} sm={8}><Card /></Grid>
-      
+      <Grid item xs={12} sm={8}>
+        <h2>Rocket2</h2>
+        <Card 
+        title="Rocket1"
+        avatarUrl="http://images-na.ssl-image-amazon.com/images/I/81mjh5ZSu1L._AC_SL1500_.jpg"
+        />
+      </Grid>
+      <Grid item xs={12} sm={8}>
+        <h2>Rocket3</h2>
+        <Card 
+        title="Rocket1"
+        avatarUrl="http://images-na.ssl-image-amazon.com/images/I/81mjh5ZSu1L._AC_SL1500_.jpg"
+        />
+      </Grid>
     </Grid>
   )
 };
