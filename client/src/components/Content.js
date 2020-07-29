@@ -29,14 +29,14 @@ let Content = () => {
       <Grid item xs={12} sm={8}>
         <h2>Rocket2</h2>
         <Card 
-        title="Rocket1"
+        title="Rocket2"
         avatarUrl="http://images-na.ssl-image-amazon.com/images/I/81mjh5ZSu1L._AC_SL1500_.jpg"
         />
       </Grid>
       <Grid item xs={12} sm={8}>
         <h2>Rocket3</h2>
         <Card 
-        title="Rocket1"
+        title="Rocket3"
         avatarUrl="http://images-na.ssl-image-amazon.com/images/I/81mjh5ZSu1L._AC_SL1500_.jpg"
         />
       </Grid>
